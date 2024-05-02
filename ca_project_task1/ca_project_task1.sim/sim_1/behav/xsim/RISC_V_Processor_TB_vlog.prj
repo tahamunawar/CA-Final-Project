@@ -1,0 +1,22 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../ca_project_task1.srcs/sources_1/new/Adder.v" \
+"../../../../ca_project_task1.srcs/sources_1/new/Alu_64bit.v" \
+"../../../../ca_project_task1.srcs/sources_1/new/Alu_control.v" \
+"../../../../ca_project_task1.srcs/sources_1/new/Branch.v" \
+"../../../../ca_project_task1.srcs/sources_1/new/Control_Unit.v" \
+"../../../../ca_project_task1.srcs/sources_1/new/Data_Memory.v" \
+"../../../../ca_project_task1.srcs/sources_1/new/Immediate_gen.v" \
+"../../../../ca_project_task1.srcs/sources_1/new/InstructionParser.v" \
+"../../../../ca_project_task1.srcs/sources_1/new/Instruction_Memory.v" \
+"../../../../ca_project_task1.srcs/sources_1/new/MUX.v" \
+"../../../../ca_project_task1.srcs/sources_1/new/Program_Counter.v" \
+"../../../../ca_project_task1.srcs/sources_1/new/RISC_V_Processor.v" \
+"../../../../ca_project_task1.srcs/sources_1/new/RegisterFile.v" \
+"../../../../ca_project_task1.srcs/sim_1/new/RISC_V_Processor_TB.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
